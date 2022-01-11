@@ -1,3 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .quemSomos {
-    background: #333;
+    background: #333333;
+}
+
+.altura100 {
+    height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+    .altura100 {
+        height: auto;
+    }
 }
