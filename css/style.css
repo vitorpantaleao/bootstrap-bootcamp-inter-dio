@@ -6,12 +6,20 @@ html {
     scroll-behavior: smooth;
 }
 
-.quemSomos {
+.bgGray {
     background: #333333;
 }
 
 .altura100 {
     height: 100vh;
+}
+
+footer {
+    background: #000;
+}
+
+footer P {
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {
